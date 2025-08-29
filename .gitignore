@@ -1,0 +1,66 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# iOS related
+**/ios/Flutter/.last_build_id
+**/ios/.generated/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/App.framework
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Xcode
+**/ios/Runner.xcworkspace/
+**/ios/Runner.xcuserstate
+**/ios/Runner.xcodeproj/project.xcworkspace/
+**/ios/Runner.xcodeproj/xcuserdata/
+
+# macOS related
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/Runner/GeneratedPluginRegistrant.*
+
+# Windows related
+**/windows/flutter/ephemeral/
+**/windows/Runner/GeneratedPluginRegistrant.*
+
+# Linux related
+**/linux/flutter/ephemeral/
+**/linux/Runner/GeneratedPluginRegistrant.*
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Coverage
+coverage/
+
+# Environment & IDE files
+*.log
+*.tmp
+*.swp
+*.lock
+.idea/
+.vscode/
+*.iml
+
+# Symbolic links created by Flutter
+.symlinks/
+
+# Miscellaneous
+build/
