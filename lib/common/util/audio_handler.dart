@@ -2,10 +2,14 @@ import 'dart:async';
 import 'dart:developer';
 
 import 'package:audio_service/audio_service.dart';
+import 'package:audio_session/audio_session.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 import 'package:just_audio/just_audio.dart';
 
 Future<AudioHandler> initAudioService() async {
+  // Configure iOS audio session for background playback
+  final session = await AudioSession.instance;
+  await session.configure(const AudioSessionConfiguration.music());
   return await AudioService.init(
     builder: () => MyAudioHandler(),
     config: const AudioServiceConfig(

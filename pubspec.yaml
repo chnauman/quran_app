@@ -41,6 +41,7 @@ dependencies:
   audio_service: ^0.18.13
   just_audio: ^0.9.38
   just_audio_background: ^0.0.1-beta.12
+  audio_session: ^0.1.23
   hive:
   hive_flutter:
   get_it: ^7.6.7
